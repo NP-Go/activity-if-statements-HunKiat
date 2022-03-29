@@ -23,6 +23,7 @@ func main() {
 	fmt.Println("")
 	fmt.Println("Performing 2nd `if` comparison...")
 	fmt.Println("Number1 & Number 2 are ", *ptrNum1, *ptrNum2)
+	ptrNum1, ptrNum2 = ptrNum2, ptrNum1
 	if number1 != number2 {
 		fmt.Println(resultMessage + " " + "The numbers compared are not the same.")
 	} else {
